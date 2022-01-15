@@ -6,8 +6,8 @@ This repository contains files related to the tutorial: _Build your dashboard in
 
 There is 2 folders:
 
-* `cube/` contains the Cube Dev configuration (schemas) for the MySQL Employee Database
-* `react-app` contains a CRA project that is consuming Cube API to render a dashboard using Recharts library
+* `cube/` contains the Cube Dev configuration (`schema/`) for the MySQL Employee Database
+* `react-app/` contains a CRA project that is consuming Cube API to render a dashboard using Recharts library
 
 ### Prerequisites
 
