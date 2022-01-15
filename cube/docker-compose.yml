@@ -1,0 +1,15 @@
+version: '2.2'
+
+services:
+  cube:
+    image: cubejs/cube:latest
+    ports:
+      - 4000:4000
+    environment:
+      - CUBEJS_DEV_MODE=true
+    volumes:
+      - .:/cube/conf
+  database:
+    image: genschsa/mysql-employees
+    environment:
+      - MYSQL_ROOT_PASSWORD=pass
