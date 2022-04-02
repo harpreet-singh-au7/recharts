@@ -2,6 +2,8 @@
 
 This repository contains files related to the tutorial: _Build your dashboard in React using Recharts and Cube_
 
+Tutorial link: https://cube.dev/blog/building-a-recharts-dashboard-with-cube/
+
 ## Getting Started
 
 There is 2 folders:
