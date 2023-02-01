@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom";
 import cubejs from "@cubejs-client/core";
 import { QueryRenderer } from "@cubejs-client/react";
 import { Spin } from "antd";
@@ -9,19 +8,13 @@ import {
   PieChart,
   Pie,
   Cell,
-  AreaChart,
-  Area,
   XAxis,
   YAxis,
   Tooltip,
   ResponsiveContainer,
   Legend,
-  BarChart,
-  Bar,
-  LineChart,
-  Line,
 } from "recharts";
-import { Row, Col, Statistic, Table } from "antd";
+import { Table } from "antd";
 import { useDeepCompareMemo } from "use-deep-compare";
 
 const CartesianChart = ({ resultSet, children, ChartComponent }) => (
